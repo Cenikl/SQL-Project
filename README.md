@@ -2,8 +2,8 @@
 
 This is a repo where we will work on the database
 
-# In the folder inserts : 
-## Inserts for our Database
+# All diponible inserts for our Database
+#### They are in the "insert" folder
 
 | tables    | number of values |
 | --------- | ---------------- |
