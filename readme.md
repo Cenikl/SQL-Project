@@ -1,4 +1,4 @@
-# Insert for our Database
+# Inserts for our Database
 
 | tables    | number of values |
 | --------- | ---------------- |
