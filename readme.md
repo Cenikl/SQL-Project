@@ -1,9 +1,4 @@
-# SQL-Project
-
-This is a repo where we will work on the database
-
-# All diponible inserts for our Database
-#### They are in the "insert" folder
+# Inserts for our Database
 
 | tables    | number of values |
 | --------- | ---------------- |

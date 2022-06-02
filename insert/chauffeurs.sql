@@ -1,0 +1,10 @@
+insert into chauffeur (nom, prenom, cin, contact, email) values ('Mraz','Luke','373308014792','034 31 154 67','Mraz@gmail.com'),
+('Jenkins','Brandon','127261072591','032 97 143 52','Jenkins@gmail.com'),
+('Kuvalis','Jack','962928089710','032 79 886 77','Kuvalis@gmail.com'),
+('Franey','Benny','574717146371','034 21 196 86','Franey@gmail.com'),
+('Harris','Floyd','799724291730','033 41 194 65','Harris@gmail.com'),
+('Donnelly','Karl','851390880699','034 09 391 77','Donnelly@gmail.com'),
+('Harvey','Lamar','133238242422','034 53 011 14','Harvey@gmail.com'),
+('Adams','Barry','649629129165','033 63 459 51','Adams@gmail.com'),
+('Fisher','Angelo','743277933380','034 12 028 17','Fisher@gmail.com'),
+('Kuhlman','Shannon','650527133259','032 66 344 95','Kuhlman@gmail.com');
