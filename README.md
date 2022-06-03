@@ -11,4 +11,6 @@ This is a repo where we will work on the database
 | client    |              300 |
 | vehicule  |               15 |
 | ville     |                9 |
-
+| offre     |                6 |
+| voyage    |               26 |
+| depense   |                4 |
