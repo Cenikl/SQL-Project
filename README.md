@@ -2,7 +2,9 @@
 
 This is a repo where we will work on the database
 
-# All diponible inserts for our Database
+# Fixed voyage.sql bug where nb_place_dispo > 0
+
+# All disponible inserts for our Database
 #### They are in the "insert" folder
 
 | tables    | number of values |
@@ -14,3 +16,5 @@ This is a repo where we will work on the database
 | offre     |                6 |
 | voyage    |               26 |
 | depense   |                4 |
+
+
