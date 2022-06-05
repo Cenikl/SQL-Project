@@ -2,7 +2,7 @@
 
 This is a repo where we will work on the database
 
-# Fixed voyage.sql bug where nb_place_dispo > 0
+#### Fixed voyage.sql bug where nb_place_dispo > 0
 
 # All disponible inserts for our Database
 #### They are in the "insert" folder
