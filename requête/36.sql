@@ -1,2 +1,2 @@
---Le nombre total de vehicule optionnelle.
-select count(matricule) from vehicule where (status = 'f');
+--Le nombre total de vehicule fonctionnelle.
+select count(matricule) from vehicule where (status = 't');
