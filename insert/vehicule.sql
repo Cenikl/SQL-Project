@@ -1,4 +1,4 @@
-INSERT INTO vehicule values('2240 TBI', '10', 'false'),
+INSERT INTO vehicule (matricule, nb_place, status) values('2240 TBI', '10', 'false'),
                             ('2539 TAB', '10', 'true'),
                             ('1934 TBH', '10', 'true'),
                             ('9986 TBH', '10', 'true'),
