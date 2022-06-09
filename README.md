@@ -1,5 +1,7 @@
 # SQL-Project
 
+This is a repo where we will work on the database
+
 | REQUETES G2                                                                                                        |             |                   |
 |--------------------------------------------------------------------------------------------------------------------|-------------|-------------------|
 |                                                                                                                    | DIFFICULTY  | UTILITY (1 to 10) |
@@ -72,7 +74,6 @@
 | liste des choix d'offre des clients                                                                                | BASIC       | 3                 |
 
 
-This is a repo where we will work on the database
 
 #### Fixed voyage.sql bug where nb_place_dispo > 0
 
