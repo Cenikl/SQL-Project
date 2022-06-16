@@ -12,4 +12,4 @@ insert into conduire values(1,1),
                             (3,4),
                             (4,3),
                             (5,5),
-                            (6,9);
+                            (6,10);

@@ -1,4 +1,4 @@
-CREATE DATABASE toky_trans2_0;
+CREATE DATABASE toky_trans2;
 
 \c toky_trans2;
 
@@ -49,7 +49,7 @@ CREATE TABLE voyage(
     heure_dep time not null, 
     nb_place_dispo int check(nb_place_dispo >= 0),
     id_offre int REFERENCES offre(id_offre), 
-    id_vehicule varchar(8) REFERENCES vehicule(id_vehicule),
+    id_vehicule int REFERENCES vehicule(id_vehicule),
     id_ville_depart int not null REFERENCES ville(id_ville),
     id_ville_arrivee int not null REFERENCES ville(id_ville)
 );
