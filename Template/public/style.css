@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+}
+.nav {
+  position: sticky;
+  border-bottom:1.5px solid skyblue;
+  background-color: #262626;
+  overflow:auto;
+}
+.trans {
+  float: left;
+  display: block;
+  color:  #fff;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 20px;
+  text-decoration: none;
+	font-family: poppins;
+	letter-spacing: 4px;
+	font-size: 20px;
+	margin: 0 10px;
+	color: #fff;
+}
+.home {
+  float: right;
+  border-left:1px solid #171717;
+  display: block;
+  color:  #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 19px;
+	font-family: poppins;
+	letter-spacing: 2px;
+	font-size: 20px;
+	margin: 0 10px;
+	color: #fff;
+}
+
+
+.hidden {
+  display: none;
+}
+
+.footer-gray {
+  position:relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #EFEFEF;
+  background-image: url(./footer.png);
+  background-size:cover;
+}
+
+.footer-custom {
+  border-top:1.5px solid rgb(145, 221, 251);
+  color: #888;
+  font: normal normal 12px/1.4 "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  max-width: 1008px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 24px;
+  text-align: center;
+}
