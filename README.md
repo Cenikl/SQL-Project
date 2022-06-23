@@ -2,6 +2,22 @@
 
 This is a repo where we will work on the database
 
+# All disponible inserts for our Database
+#### They are in the "insert" folder
+
+| tables    | number of values |
+| --------- | ---------------- |
+| chauffeur |               10 |
+| client    |              300 |
+| vehicule  |               15 |
+| ville     |                9 |
+| offre     |                6 |
+| voyage    |               26 |
+| depense   |                4 |
+| reserver  |              300 |
+
+# Requests list for our Database
+
 | REQUETES G2                                                                                                        |             |                   |
 |--------------------------------------------------------------------------------------------------------------------|-------------|-------------------|
 |                                                                                                                    | DIFFICULTY  | UTILITY (1 to 10) |
@@ -72,23 +88,3 @@ This is a repo where we will work on the database
 | Le nombre de mineur qui participe a un voyage                                                                      | MEDIUM      | 4                 |
 | le nombre de clients                                                                                               | EASY        | 4                 |
 | liste des choix d'offre des clients                                                                                | BASIC       | 3                 |
-
-
-
-#### Fixed voyage.sql bug where nb_place_dispo > 0
-
-# All disponible inserts for our Database
-#### They are in the "insert" folder
-
-| tables    | number of values |
-| --------- | ---------------- |
-| chauffeur |               10 |
-| client    |              300 |
-| vehicule  |               15 |
-| ville     |                9 |
-| offre     |                6 |
-| voyage    |               26 |
-| depense   |                4 |
-| reserver  |              300 |
-
-
