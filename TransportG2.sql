@@ -1,6 +1,6 @@
 CREATE DATABASE toky_trans2;
 
-\c toky_trans2;
+\ c toky_trans2;
 
 -- Table client
 CREATE TABLE client(
@@ -13,7 +13,7 @@ CREATE TABLE client(
 
 -- Table chauffeur
 CREATE TABLE chauffeur (
-    id_chauffeur serial primary key, 
+    id_chauffeur serial primary key,
     nom varchar(150) not null,
     prenom varchar(150),
     cin varchar(12),
@@ -23,9 +23,9 @@ CREATE TABLE chauffeur (
 
 -- Table offre
 CREATE TABLE offre(
-  id_offre serial primary key,
-  tarif int not null check(tarif > 0),
-  label varchar(100) not null
+    id_offre serial primary key,
+    tarif int not null check(tarif > 0),
+    label varchar(100) not null
 );
 
 -- Table ville 
@@ -38,17 +38,17 @@ CREATE TABLE ville(
 CREATE TABLE vehicule(
     id_vehicule bigserial primary key,
     matricule varchar(8),
-    nb_place int not null, 
+    nb_place int not null,
     status boolean
 );
 
 -- Table voyage
 CREATE TABLE voyage(
     id_voyage bigserial primary key,
-    date_voyage date not null, 
-    heure_dep time not null, 
+    date_voyage date not null,
+    heure_dep time not null,
     nb_place_dispo int check(nb_place_dispo >= 0),
-    id_offre int REFERENCES offre(id_offre), 
+    id_offre int REFERENCES offre(id_offre),
     id_vehicule int REFERENCES vehicule(id_vehicule),
     id_ville_depart int not null REFERENCES ville(id_ville),
     id_ville_arrivee int not null REFERENCES ville(id_ville)
@@ -59,7 +59,7 @@ CREATE TABLE reserver(
     id_client int not null REFERENCES client(id_client),
     id_voyage int REFERENCES voyage(id_voyage),
     date_reservation date DEFAULT current_date,
-    place int not null, 
+    place int not null,
     montant_paye int check (montant_paye > 0) DEFAULT 0
 );
 
@@ -71,8 +71,8 @@ CREATE TABLE conduire(
 
 -- Table depense 
 CREATE TABLE depense(
-    id_depense serial primary key, 
-    essence float, 
+    id_depense serial primary key,
+    essence float,
     maintenance int
 );
 
