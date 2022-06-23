@@ -1,27 +1,29 @@
 import './App.css';
+import FilterVoyage from './component/Filter-voyages/FilterV';
 
-function App(){
-return (<div>
-<header class="nav" id="mynav">
-<a href="#home" class="home">Sign in</a>
-<a href="#home" class="home">News</a>
-  <a href="./index.html" class="home">Home</a>
-  <a href="./index.html" class="trans">Toky Trans</a>
-</header>
-
-<div>
-</div>
-
-<footer>
-<div class="footer-gray">
-  <div class="footer-custom">
-      <h3>2021-2022</h3>
-      <p>@Created by an authentic team :D</p>
+function App() {
+  return (<div>
+    <div className="nav d-flex justify-content-end" id="mynav">
+      <a href="#home" className="home">Sign in</a>
+      <a href="#home" className="home">News</a>
+      <a href="./index.html" className="home">Home</a>
+      <a href="./index.html" className="trans">Toky Trans</a>
     </div>
-</div>
-</footer>
-</div>
-)
+
+    <div>
+      <FilterVoyage />
+    </div>
+
+    <footer>
+      <div className="footer-gray">
+        <div className="footer-custom">
+          <h3>2021-2022</h3>
+          <p>@Created by an authentic team :D</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  )
 }
 
 export default App;
