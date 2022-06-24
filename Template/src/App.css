@@ -145,10 +145,25 @@ footer {
 }
 
 
-.tt-50 {
-  transform: translateY(70%);
+.tt-20 {
+  transform: translateY(-20%);
 }
 
 i {
   cursor: pointer;
+}
+
+.tt-50 {
+  transform: translateY(60%);
+}
+
+.smilling {
+  position: absolute;
+  left: 43%;
+  top: 30%;
+  transform: scale(2);
+}
+
+.h-m {
+  height: 15vh !important;
 }

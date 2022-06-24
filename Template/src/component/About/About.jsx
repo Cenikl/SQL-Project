@@ -1,6 +1,9 @@
 export default function About({ className }) {
     return (
-        <div className={"container p-5 w-50 bg-light rounded mt-5 " + className}>
+        <div className={"pr container p-5 w-50 bg-light rounded mt-5 " + className}>
+            <div className="smilling">
+                <i className="display-1 fa-solid fa-face-smile-beam"></i>
+            </div>
             <p className="display-5 mb-5">About</p>
             <p>Contact us at </p>
             <div className="w-100 d-flex justify-content-around">
@@ -10,8 +13,10 @@ export default function About({ className }) {
                     <Phone number="32 44 555 66" />
                 </div>
                 <div className="container d-flex align-items-end">
-                    <i class="fa-solid fa-at"></i>
-                    <span>tokytrans@gmail.com</span>
+                    <div>
+                        <i class="fa-solid fa-at"></i>
+                        <span>tokytrans@gmail.com</span>
+                    </div>
                 </div>
             </div>
         </div>
