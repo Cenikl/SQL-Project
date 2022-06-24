@@ -1,12 +1,18 @@
 body {
   margin: 0;
+  background-attachment: fixed;
+  padding-top: 10%;
 }
 
 .nav {
-  position: sticky;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   border-bottom: 1.5px solid skyblue;
   background-color: #262626de;
   overflow: auto;
+  z-index: 1;
 }
 
 .trans {
@@ -26,7 +32,6 @@ body {
 
 .home {
   float: right;
-  border-left: 1px solid #171717;
   display: block;
   color: #fff;
   text-align: center;
@@ -38,6 +43,7 @@ body {
   font-size: 20px;
   margin: 0 10px;
   color: #fff;
+  transition: all 1s;
 }
 
 
@@ -67,8 +73,6 @@ body {
 }
 
 footer {
-  position: absolute;
-  bottom: 0;
   width: 100%;
 }
 
@@ -113,4 +117,34 @@ footer {
   100% {
     opacity: 1;
   }
+}
+
+.h-max {
+  height: 200vh !important;
+}
+
+
+.txt-shadow {
+  text-shadow: 2px 2px 2px black;
+}
+
+.w-10 {
+  width: 10% !important;
+}
+
+.f-b-40 {
+  flex-basis: 40%;
+}
+
+.f-b-60 {
+  flex-basis: 60%;
+}
+
+.f-b-50 {
+  flex-basis: 50%;
+}
+
+
+.tt-50 {
+  transform: translateY(70%);
 }
