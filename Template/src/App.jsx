@@ -4,6 +4,7 @@ import FilterVoyage from './component/Filter-voyages/FilterV';
 import SignIn from './component/Sign-in/Sign-in';
 import Car from "./component/car.png";
 import About from './component/About/About';
+import Cards from './component/Cards/Cards';
 function App() {
   const [position, setPosition] = useState(0);
 
@@ -22,10 +23,15 @@ function App() {
       </div>
       {
         position === 1 ? <SignIn close={setPosition} /> :
-          position === 2 ? <FilterVoyage close={setPosition} /> :
+          position === 2 ?
+            <div>
+              <FilterVoyage close={setPosition} />
+              <Result />
+            </div> :
             ""
       }
       <div className='h-max'>
+
         <Welcome />
         <About className="tt-50" />
       </div>
@@ -40,6 +46,25 @@ function App() {
       </footer>
     </div>
   )
+}
+
+function Result() {
+  return (
+    <div className="mt-5 container d-flex justify-content-around">
+      <Cards className="m-2 w-100" title="Offres">
+        Premium 3000
+        <hr />
+      </Cards>
+      <Cards className="m-2 w-100" title="Vehicles">
+        5031 WWT
+        <hr />
+      </Cards>
+      <Cards className="m-2 w-100" title="Departure time">
+        14h : 30
+        <hr />
+      </Cards>
+    </div>
+  );
 }
 
 /**

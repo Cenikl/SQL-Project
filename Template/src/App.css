@@ -148,3 +148,7 @@ footer {
 .tt-50 {
   transform: translateY(70%);
 }
+
+i {
+  cursor: pointer;
+}

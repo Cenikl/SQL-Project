@@ -22,10 +22,6 @@ export default function FilterVoyage({ close }) {
                 <button className="btn btn-dark">Filter</button>
             </div>
             <hr />
-
-            <div className="container">
-                Where a table of result should display
-            </div>
             <i class="fa-solid fa-xmark close" onClick={() => close(0)}></i>
         </div>
     );
