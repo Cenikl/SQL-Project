@@ -122,7 +122,7 @@ function Offers() {
     <>
       <Today
         title="Antsirabe, simple travel"
-        className="bg-info"
+        className="bg-light"
         rate="15000"
         departure="Antananarivo"
         arrival="Antsirabe"
@@ -131,7 +131,7 @@ function Offers() {
       />
       <Today
         title="Toamasina, simple travel"
-        className="bg-info"
+        className="bg-light"
         rate="20000"
         departure="Antananarivo"
         arrival="Toamasina"
@@ -140,7 +140,7 @@ function Offers() {
       />
       <Today
         title="Toliara, Vip travel"
-        className="bg-success "
+        className="bg-light"
         rate="50000"
         departure="Antananarivo"
         arrival="Toliara"
@@ -149,7 +149,7 @@ function Offers() {
       />
       <Today
         title="Toamasina, Vip travel"
-        className="bg-success "
+        className="bg-light "
         rate="50000"
         departure="Antananarivo"
         arrival="Toamasina"
